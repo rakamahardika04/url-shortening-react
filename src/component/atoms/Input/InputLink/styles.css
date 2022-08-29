@@ -1,0 +1,7 @@
+.input-link {
+    width: 725px;
+    padding: 11px 30px;
+    font-size: 20px;
+    font-weight: var(--bold);
+    color: var(--grayish-violet);
+}

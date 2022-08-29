@@ -1,0 +1,17 @@
+.shorten-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--very-dark-blue);
+    background-image: url('../../../assets/images/bg-shorten-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    padding: 0px 36px;
+    width: 1024px;
+    height: 170px;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}

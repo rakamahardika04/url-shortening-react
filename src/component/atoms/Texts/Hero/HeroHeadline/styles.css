@@ -1,0 +1,5 @@
+.hero-headline{
+    color : var(--very-dark-blue);
+    font-size: 65px;
+    font-weight: var(--bold);
+}

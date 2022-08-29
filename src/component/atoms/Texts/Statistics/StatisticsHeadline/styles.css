@@ -1,0 +1,5 @@
+.statistics-headline{
+    color : var(--very-dark-blue);
+    font-size: 42px;
+    font-weight: var(--bold);
+}

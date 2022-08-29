@@ -1,0 +1,7 @@
+.btn-login{
+    background-color: transparent;
+    color: var(--grayish-violet);
+    font-weight: var(--bold);
+    border-radius: 50px;
+    padding: 14px 50px;
+}
