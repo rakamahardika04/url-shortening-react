@@ -11,7 +11,7 @@ import HeroSubHeadline from './component/atoms/Texts/Hero/HeroSubHeadline/HeroSu
 import InputLink from './component/atoms/Input/InputLink/InputLink';
 import StatisticsHeadline from './component/atoms/Texts/Statistics/StatisticsHeadline/StatisticsHeadline';
 import StatisticsSubHeadline from './component/atoms/Texts/Statistics/StatisticsSubHeadline/StatisticsSubHeadline';
-import StatisticsCard from './component/atoms/Cards/StatisticsCard/StatisticsCard';
+import CardFiture from './component/atoms/Cards/CardFiture/CardFiture';
 import InputShortenForm from './component/molecules/InputShortenLink/InputShortenForm';
 
 function App() {
@@ -29,8 +29,8 @@ function App() {
       {/* <InputLink /> */}
       {/* <StatisticsHeadline /> */}
       {/* <StatisticsSubHeadline /> */}
-      {/* <StatisticsCard /> */}
-      <InputShortenForm />
+      <CardFiture />
+      {/* <InputShortenForm /> */}
     </div>
   );
 }

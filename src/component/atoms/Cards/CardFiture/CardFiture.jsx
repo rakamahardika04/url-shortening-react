@@ -2,7 +2,7 @@ import react from 'react';
 import './styles.css';
 import '../../../../assets/icons/icon-brand-recognition.svg'
 
-const StatisticsCard = () => {
+const CardFiture = () => {
   return (
     <div class="card-container">
       <div class="card-icon">
@@ -14,4 +14,4 @@ const StatisticsCard = () => {
   );
 }
 
-export default StatisticsCard;
+export default CardFiture;
