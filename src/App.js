@@ -12,7 +12,7 @@ import InputLink from './component/atoms/Input/InputLink/InputLink';
 import StatisticsHeadline from './component/atoms/Texts/Statistics/StatisticsHeadline/StatisticsHeadline';
 import StatisticsSubHeadline from './component/atoms/Texts/Statistics/StatisticsSubHeadline/StatisticsSubHeadline';
 import StatisticsCard from './component/atoms/Cards/StatisticsCard/StatisticsCard';
-import InputShortenForm from './component/molecules/InputShorterLink/InputShortenForm';
+import InputShortenForm from './component/molecules/InputShortenLink/InputShortenForm';
 
 function App() {
   return (
