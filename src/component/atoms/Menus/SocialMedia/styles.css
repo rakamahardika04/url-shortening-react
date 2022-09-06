@@ -1,0 +1,12 @@
+.social-media-menus {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media-item:not(:last-child){
+    margin-right: 22px;
+}

@@ -13,6 +13,8 @@ import StatisticsHeadline from './component/atoms/Texts/Statistics/StatisticsHea
 import StatisticsSubHeadline from './component/atoms/Texts/Statistics/StatisticsSubHeadline/StatisticsSubHeadline';
 import CardFiture from './component/atoms/Cards/CardFiture/CardFiture';
 import InputShortenForm from './component/molecules/InputShortenLink/InputShortenForm';
+import CardFitures from './component/molecules/CardFitures/CardFitures';
+import SocialMediaMenus from './component/atoms/Menus/SocialMedia/SocialMediaMenus';
 
 function App() {
   return (
@@ -29,8 +31,10 @@ function App() {
       {/* <InputLink /> */}
       {/* <StatisticsHeadline /> */}
       {/* <StatisticsSubHeadline /> */}
-      <CardFiture />
+      {/* <CardFiture /> */}
       {/* <InputShortenForm /> */}
+      {/* <CardFitures /> */}
+      <SocialMediaMenus />
     </div>
   );
 }
