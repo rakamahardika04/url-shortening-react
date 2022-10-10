@@ -1,8 +1,14 @@
 .btn-logo {
     background-color: transparent;
+    height: 33px;
     padding: 0;
+    border: 0;
 }
 
 .btn-logo .black-logo {
     fill: black;
+}
+
+.logo-img {
+    height: 100%;
 }

@@ -1,8 +1,13 @@
 .btn-logo {
     background-color: transparent;
+    height: 33px;
     padding: 0;
 }
 
 .btn-logo .white-logo {
     fill: white;
+}
+
+.logo-img {
+    height: 100%;
 }

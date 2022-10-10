@@ -1,0 +1,8 @@
+.navbar-nav {
+    margin-left: 46px;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: var(--grayish-violet);
+}
