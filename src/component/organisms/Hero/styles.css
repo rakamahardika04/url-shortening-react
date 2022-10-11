@@ -4,29 +4,28 @@
 .hero {
     display: flex;
     align-items: center;
-    height: 482px;
+    height: 750px;
 }
 
-.column-left {
+.hero-column-left {
     display: flex;
     flex-direction: column;
-    max-width: 50%;
+    max-width: 55%;
 }
 
-.column-right {
-    max-width: 50%;
+.hero-column-right {
+    position: absolute;
+    max-width: 45%;
+    right: 0;
 }
 
-.button-container {
+.hero-button-container {
     align-self: baseline;
+    margin-top: 30px;
 }
 
 .hero-img-container {
     overflow: hidden;
-    position: absolute;
-    max-width: inherit;
-    top: 0;
-    right: 0;
 }
 
 .hero-img {

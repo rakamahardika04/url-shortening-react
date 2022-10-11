@@ -18,6 +18,7 @@ import SocialMediaMenus from './component/atoms/Menus/SocialMedia/SocialMediaMen
 import BoostSection from './component/molecules/BoostSection/BoostSection';
 import Navbar from './component/organisms/Navbar/Navbar';
 import Hero from './component/organisms/Hero/Hero';
+import Statistics from './component/organisms/Statistics/Statistics';
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
       {/* <SocialMediaMenus /> */}
       {/* <BoostSection /> */}
       <Navbar />
-      <Hero />
+      {/* <Hero /> */}
+      <Statistics />
     </div>
   );
 }
