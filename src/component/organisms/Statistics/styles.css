@@ -1,0 +1,27 @@
+.statistics-section {
+    background-color: #EFF1F7;
+    height: 850px;
+}
+
+.statistics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.statistics-text-container{
+    margin-top: 100px;
+}
+
+.statistics-column-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+}
+
+.statistics-column-right {
+    height: 50%;
+}

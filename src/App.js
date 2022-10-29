@@ -41,7 +41,7 @@ function App() {
       {/* <SocialMediaMenus /> */}
       {/* <BoostSection /> */}
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
       <Statistics />
     </div>
   );

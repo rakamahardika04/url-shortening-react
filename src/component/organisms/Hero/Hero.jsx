@@ -5,6 +5,7 @@ import LoginButton from '../../atoms/Buttons/Login/LoginButton';
 import SignUpButton from '../../atoms/Buttons/SignUp/SignUpButton';
 import HeroHeadline from '../../atoms/Texts/Hero/HeroHeadline/HeroHeadline';
 import HeroSubHeadline from '../../atoms/Texts/Hero/HeroSubHeadline/HeroSubHeadline';
+import InputShortenForm from '../../molecules/InputShortenForm/InputShortenForm';
 import './styles.css';
 
 const Hero = () => {
@@ -25,6 +26,9 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="input-shorten-form-container">
+            <InputShortenForm />
         </div>
     </div>
     

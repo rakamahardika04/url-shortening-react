@@ -9,11 +9,19 @@ const Statistics = () => {
     <div class="statistics-section">
       <div class="statistics container">
 
+        {/* COLUMN LEFT */}
         <div class="statistics-column-left">
-          <StatisticsHeadline />
-          <StatisticsSubHeadline />
+          <div class="statistics-text-container">
+            <div class="statistics-headline-container">
+              <StatisticsHeadline />
+            </div>
+            <div class="statistics-subheadline-container">
+              <StatisticsSubHeadline />
+            </div>  
+          </div>
         </div>
 
+        {/* COLUMN RIGHT */}
         <div class="statistics-column-right">
             <div class="card-fitures-box">
                 <CardFitures />
