@@ -1,0 +1,29 @@
+.footer-section {
+    background-color: var(--dark-violet);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-column-left {
+    width: 30%;
+}
+
+.white-logo-button-container {
+    height: fit-content;
+    width: fit-content;
+}
+
+.footer-column-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.footer-list {
+    list-style: none;
+}

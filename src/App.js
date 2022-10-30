@@ -19,6 +19,7 @@ import BoostSection from './component/molecules/BoostSection/BoostSection';
 import Navbar from './component/organisms/Navbar/Navbar';
 import Hero from './component/organisms/Hero/Hero';
 import Statistics from './component/organisms/Statistics/Statistics';
+import Footer from './component/organisms/Footer/Footer';
 
 function App() {
   return (
@@ -39,10 +40,11 @@ function App() {
       {/* <InputShortenForm /> */}
       {/* <CardFitures /> */}
       {/* <SocialMediaMenus /> */}
-      {/* <BoostSection /> */}
-      <Navbar />
+      {/* <Navbar />
       <Hero />
-      <Statistics />
+      <Statistics /> */}
+      <BoostSection />
+      <Footer />
     </div>
   );
 }
