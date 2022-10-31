@@ -1,5 +1,8 @@
 .footer-section {
-    background-color: var(--dark-violet);
+    background-color: var(--very-dark-violet);
+    display: flex;
+    align-items: center;
+    height: 340px;
 }
 
 .footer {
@@ -25,5 +28,23 @@
 }
 
 .footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     list-style: none;
+}
+
+.footer-headline {
+    color: white;
+    font-weight: var(--bold);
+    margin-bottom: 22px;
+}
+
+.footer-item {
+    margin-bottom: 8px;
+}
+
+.footer-link {
+    color: var(--gray);
+    font-weight: var(--bold);
 }

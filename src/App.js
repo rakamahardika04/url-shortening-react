@@ -40,9 +40,9 @@ function App() {
       {/* <InputShortenForm /> */}
       {/* <CardFitures /> */}
       {/* <SocialMediaMenus /> */}
-      {/* <Navbar />
+      <Navbar />
       <Hero />
-      <Statistics /> */}
+      <Statistics />
       <BoostSection />
       <Footer />
     </div>

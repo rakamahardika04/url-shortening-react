@@ -22,7 +22,13 @@ const Footer = () => {
                 <ul className='footer-list'>
                     <li className='footer-headline'>Features</li>
                     <li className='footer-item'>
-                        <a className='footer-link' href=""></a>
+                        <a className='footer-link' href="">Link Shortening</a>
+                    </li>
+                    <li className='footer-item'>
+                        <a className='footer-link' href="">Branded Links</a>
+                    </li>
+                    <li className='footer-item'>
+                        <a className='footer-link' href="">Analytics</a>
                     </li>
                 </ul>
 
@@ -30,15 +36,31 @@ const Footer = () => {
                 <ul className='footer-list'>
                     <li className='footer-headline'>Resources</li>
                     <li className='footer-item'>
-                        <a className='footer-link' href=""></a>
+                        <a className='footer-link' href="">Blog</a>
                     </li>
+                    <li className='footer-item'>
+                        <a className='footer-link' href="">Developers</a>
+                    </li>
+                    <li className='footer-item'>
+                        <a className='footer-link' href="">Support</a>
+                    </li>
+                    
                 </ul>
 
                 {/* COMPANY LIST */}
                 <ul className='footer-list'>
                     <li className='footer-headline'>Companies</li>
                     <li className='footer-item'>
-                        <a className='footer-link' href=""></a>
+                        <a className='footer-link' href="">About</a>
+                    </li>
+                    <li className='footer-item'>
+                        <a className='footer-link' href="">Our Team</a>
+                    </li>
+                    <li className='footer-item'>
+                        <a className='footer-link' href="">Careers</a>
+                    </li>
+                    <li className='footer-item'>
+                        <a className='footer-link' href="">Contact</a>
                     </li>
                 </ul>
 

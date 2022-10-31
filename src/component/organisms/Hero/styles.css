@@ -1,10 +1,11 @@
 .hero-section {
     position: relative;
+    height: 632px;
 }
 .hero {
     display: flex;
     align-items: center;
-    height: 750px;
+    height: 482px;
 }
 
 .hero-column-left {
