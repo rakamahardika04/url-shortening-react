@@ -16,3 +16,32 @@
     font-size: 42px;
     font-weight: var(--bold);
 }
+
+/* Small devices (landscape phones, 376px, 576px and up) */
+
+@media (max-width: 376px) {
+    .boost-container {
+        background-image: url('../../../assets/images/bg-boost-mobile.svg');
+        justify-content: center;
+    }
+
+    .boost-headline {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }

@@ -23,6 +23,7 @@
         background-image: url('../../../assets/images/bg-shorten-mobile.svg');
         width: 100%;
         flex-direction: column;
+        background-position: top right;
     }
 }
 

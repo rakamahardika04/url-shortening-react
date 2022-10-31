@@ -41,9 +41,9 @@ function App() {
       {/* <CardFitures /> */}
       {/* <SocialMediaMenus /> */}
       {/* <Navbar /> */}
-      <Hero />
-      <Statistics />
-      {/* <BoostSection /> */}
+      {/* <Hero /> */}
+      {/* <Statistics /> */}
+      <BoostSection />
       {/* <Footer /> */}
     </div>
   );
