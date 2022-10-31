@@ -27,6 +27,16 @@
     }
 }
 
+@media (min-width: 376px) {
+    .shorten-form-container {
+        background-image: url('../../../assets/images/bg-shorten-mobile.svg');
+        width: 100%;
+        flex-direction: column;
+        background-position: top right;
+    }
+}
+
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 

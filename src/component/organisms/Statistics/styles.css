@@ -28,7 +28,32 @@
 
 /* Small devices (landscape phones, 376px, 576px and up) */
 
-@media (max-width: 376px) {
+@media (max-width: 576px) {
+    .statistics-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        height: auto;
+    }
+
+    .statistics-column-left {
+        margin-bottom: 100px;
+        height: auto;
+    }
+
+    .statistics-column-right {
+        height: auto;
+    }
+
+    .statistics-text-container {
+        width: 100%;
+    }
+
+    .statistics-headline-container {
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 577px) {
     .statistics-section {
         padding-top: 80px;
         padding-bottom: 80px;

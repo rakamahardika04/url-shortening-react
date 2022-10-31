@@ -47,7 +47,16 @@
 
 /* Small devices (landscape phones, 376px, 576px and up) */
 
-@media (max-width: 376px) {
+@media (max-width: 576px) {
+    .card-icon {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media (min-width: 576px) {
     .card-icon {
         margin-left: auto;
         margin-right: auto;

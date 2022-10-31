@@ -53,7 +53,36 @@
 
 /* Small devices (landscape phones, 376px, 576px and up) */
 
-@media (max-width: 376px) {
+@media (max-width: 576px) {
+    .footer-section {
+        height: auto;
+        padding: 50px 0px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-column-left {
+        justify-content: center;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .footer-column-right {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-list {
+        align-items: center;
+        margin-bottom: 35px;
+        padding: 0px;
+    }
+}
+
+@media (min-width: 577px) {
     .footer-section {
         height: auto;
         padding: 50px 0px;
