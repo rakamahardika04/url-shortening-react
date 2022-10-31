@@ -5,3 +5,27 @@
     text-align: left;
     line-height: 1.5;
 }
+
+/* Small devices (landscape phones, 376px, 576px and up) */
+
+@media (max-width: 376px) {
+    .hero-sub-headline {
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }

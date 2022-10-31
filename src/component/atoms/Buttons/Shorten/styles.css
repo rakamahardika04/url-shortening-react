@@ -5,3 +5,26 @@
     border-radius: 10px;
     padding: 14px 50px;
 }
+
+/* Small devices (landscape phones, 376px, 576px and up) */
+
+@media (max-width: 376px) {
+    .btn-shorten {
+        width: 100%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
