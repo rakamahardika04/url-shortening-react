@@ -25,3 +25,45 @@
 .statistics-column-right {
     height: 50%;
 }
+
+/* Small devices (landscape phones, 376px, 576px and up) */
+
+@media (max-width: 376px) {
+    .statistics-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        height: auto;
+    }
+
+    .statistics-column-left {
+        margin-bottom: 100px;
+        height: auto;
+    }
+
+    .statistics-column-right {
+        height: auto;
+    }
+
+    .statistics-text-container {
+        width: 100%;
+    }
+
+    .statistics-headline-container {
+        margin-bottom: 25px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }

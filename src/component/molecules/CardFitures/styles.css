@@ -25,3 +25,50 @@
 .card-fitures-container > .card-container:nth-child(4){
     margin-top: 80px;
 }
+
+/* Small devices (landscape phones, 376px, 576px and up) */
+
+@media (max-width: 376px) {
+    .card-fitures-container {
+        flex-direction: column;
+    }
+
+    .card-border {
+        top: 0;
+        left: 50%;
+        width: 8px;
+        height: 100%;
+    }
+
+    .card-fitures-container > .card-container:nth-child(2){
+        margin-top: 0px;
+    }
+    
+    .card-fitures-container > .card-container:nth-child(3){
+        margin-top: 0px;
+    }
+    
+    .card-fitures-container > .card-container:nth-child(4){
+        margin-top: 0px;
+    }
+
+    .card-fitures-container > .card-container:not(:nth-child(4)) {
+        margin-bottom: 100px;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
