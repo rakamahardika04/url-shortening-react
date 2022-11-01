@@ -149,6 +149,11 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+
+    .hero-section {
+        padding-bottom: 200px;
+    }
+
     .hero-img {
         width: 610px;
     }
@@ -156,6 +161,9 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
+    .hero-section {
+        padding-bottom: 270px;
+    }
     .hero-img {
         width: 790px;
     }

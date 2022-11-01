@@ -6,7 +6,7 @@ import ShortenButton from '../../atoms/Buttons/Shorten/ShortenButton';
 
 const InputShortenForm = () => {
   return (
-    <form class="shorten-form-container">
+    <form class="shorten-form-container container">
       <div class="form-group shorten-form-group">
         <InputLink />
       </div>

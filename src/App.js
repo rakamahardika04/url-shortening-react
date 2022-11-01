@@ -43,7 +43,7 @@ function App() {
 
       {/* <Navbar /> */}
       <Hero />
-      {/* <Statistics /> */}
+      <Statistics />
       {/* <BoostSection /> */}
       {/* <Footer /> */}
     </div>

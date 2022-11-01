@@ -68,6 +68,11 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 
+    .card-container {
+        width: 30%;
+        height: auto;
+    }
+
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -77,5 +82,10 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+    .card-icon {
+        margin-left: 0;
+        margin-right: 0;
+        left: 50px;
+        right: 0;
+    }
  }

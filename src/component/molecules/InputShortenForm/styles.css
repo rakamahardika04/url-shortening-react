@@ -8,7 +8,6 @@
     background-position: center;
     border-radius: 10px;
     padding: 0px 36px;
-    width: 1024px;
     height: 170px;
 }
 
@@ -29,7 +28,6 @@
 @media (max-width: 576px) {
     .shorten-form-container {
         background-image: url('../../../assets/images/bg-shorten-mobile.svg');
-        width: 100%;
         flex-direction: column;
         background-position: top right;
     }
@@ -38,7 +36,6 @@
 @media (min-width: 577px) {
     .shorten-form-container {
         background-image: url('../../../assets/images/bg-shorten-mobile.svg');
-        width: 100%;
         flex-direction: column;
         background-position: top right;
     }
@@ -47,15 +44,31 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-
+    .shorten-form-container {
+        background-image: url('../../../assets/images/bg-shorten-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+    .shorten-form-container {
+        flex-direction: row;
+    }
 
+    .shorten-form-group {
+        width: 72%;
+    }
+
+    .shorten-btn-container {
+        width: auto;
+    }
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+    .shorten-form-container {
+        max-width: 1110px;
+    }
  }
