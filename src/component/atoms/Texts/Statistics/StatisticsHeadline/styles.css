@@ -7,7 +7,13 @@
 
 /* Small devices (landscape phones, 376px, 576px and up) */
 
-@media (max-width: 376px) {
+@media (max-width: 576px) {
+    .statistics-headline {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 576px) {
     .statistics-headline {
         font-size: 30px;
     }

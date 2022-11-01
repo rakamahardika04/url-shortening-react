@@ -23,10 +23,11 @@
     .boost-container {
         background-image: url('../../../assets/images/bg-boost-mobile.svg');
         justify-content: center;
+        background-position: top right;
     }
 
     .boost-headline {
-        font-size: 28px;
+        font-size: 30px;
         margin-bottom: 20px;
     }
 }
@@ -35,17 +36,25 @@
     .boost-container {
         background-image: url('../../../assets/images/bg-boost-mobile.svg');
         justify-content: center;
+        background-position: top right;
     }
 
     .boost-headline {
-        font-size: 28px;
+        font-size: 30px;
         margin-bottom: 20px;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-
+    .boost-container {
+        background-image: url('../../../assets/images/bg-boost-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .boost-headline {
+        font-size: 42px;
+    }
  }
 
 /* Large devices (desktops, 992px and up) */
