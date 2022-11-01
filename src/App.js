@@ -41,11 +41,11 @@ function App() {
       {/* <CardFitures /> */}
       {/* <SocialMediaMenus /> */}
 
-      {/* <Navbar /> */}
+      <Navbar />
       {/* <Hero /> */}
       {/* <Statistics /> */}
       {/* <BoostSection /> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
