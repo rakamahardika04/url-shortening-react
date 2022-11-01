@@ -44,8 +44,8 @@ function App() {
       {/* <Navbar /> */}
       {/* <Hero /> */}
       {/* <Statistics /> */}
-      <BoostSection />
-      {/* <Footer /> */}
+      {/* <BoostSection /> */}
+      <Footer />
     </div>
   );
 }
