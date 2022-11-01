@@ -8,7 +8,13 @@
 
 /* Small devices (landscape phones, 376px, 576px and up) */
 
-@media (max-width: 376px) {
+@media (max-width: 576px) {
+    .btn-shorten {
+        width: 100%;
+    }
+}
+
+@media (min-width: 577px) {
     .btn-shorten {
         width: 100%;
     }

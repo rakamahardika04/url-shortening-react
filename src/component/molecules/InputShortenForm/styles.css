@@ -16,9 +16,17 @@
     margin-bottom: 0px;
 }
 
+.shorten-form-group {
+    width: 100%;
+}
+
+.shorten-btn-container {
+    width: 100%;
+}
+
 /* Small devices (landscape phones, 376px, 576px and up) */
 
-@media (max-width: 376px) {
+@media (max-width: 576px) {
     .shorten-form-container {
         background-image: url('../../../assets/images/bg-shorten-mobile.svg');
         width: 100%;
@@ -27,7 +35,7 @@
     }
 }
 
-@media (min-width: 376px) {
+@media (min-width: 577px) {
     .shorten-form-container {
         background-image: url('../../../assets/images/bg-shorten-mobile.svg');
         width: 100%;

@@ -8,7 +8,13 @@
 
 /* Small devices (landscape phones, 376px, 576px and up) */
 
-@media (max-width: 376px) {
+@media (max-width: 576px) {
+    .input-link {
+        width: 100%;
+    }
+}
+
+@media (min-width: 577px) {
     .input-link {
         width: 100%;
     }

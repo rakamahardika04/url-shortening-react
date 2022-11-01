@@ -7,24 +7,38 @@
 
 /* Small devices (landscape phones, 376px, 576px and up) */
 
-@media (max-width: 376px) {
+@media (max-width: 576px) {
     .hero-headline {
         text-align: center;
         font-size: 44px;
     }
 }
 
+@media (min-width: 577px) {
+    .hero-headline {
+        text-align: left;
+        font-size: 60px;
+    }
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-
+    .hero-headline {
+        text-align: left;
+        font-size: 46px;
+    }
  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-
+    .hero-headline {
+        font-size: 60px;
+    }
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+    .hero-headline {
+        font-size: 72px;
+    }
  }

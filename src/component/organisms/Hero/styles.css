@@ -1,6 +1,8 @@
 .hero-section {
     position: relative;
-    height: 632px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    /* height: 632px; */
 }
 .hero {
     display: flex;
@@ -30,22 +32,15 @@
 }
 
 .hero-img {
-    margin-right: -20%;
+    /* margin-right: -20%; */
 }
 
-.input-shorten-form-container {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    bottom: -80px;
-}
 
 /* Small devices (landscape phones, 376px, 377px and up) */
 
-@media (max-width: 376px) {
+@media (max-width: 576px) {
     .hero-section{
-        height: 800px;
+        /* height: 800px; */
     }
 
     .hero {
@@ -80,20 +75,11 @@
         width: 500px;
     }
 
-    .input-shorten-form-container {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-        left: 0;
-        right: 0;
-        width: 100%;
-    }
 }
 
-@media (min-width: 377px) {
+@media (min-width: 577px) {
     .hero-section{
-        height: 800px;
+        /* height: 800px; */
     }
 
     .hero {
@@ -109,7 +95,7 @@
     }
 
     .hero-button-container {
-        align-self: unset;
+        align-self: baseline;
     }
 
     .hero-column-right {
@@ -127,34 +113,50 @@
         margin-right: 0;
         width: 500px;
     }
-
-    .input-shorten-form-container {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-        left: 0;
-        right: 0;
-        width: 100%;
-    }
-}
-
-/* Medium devices (tablets, 576px and up) */
-@media (min-width: 576px) { 
 
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+    .hero-section {
+        overflow: hidden;
+    }
 
+    .hero {
+        flex-direction: row;
+    }
+
+    .hero-column-left {
+        width: 50%;
+    }
+
+    .hero-column-right {
+        width: 50%;
+    }
+
+    .hero-button-container {
+        align-self: baseline;
+    }
+
+    .hero-column-right {
+        position: absolute;
+        top: 0;
+        margin-bottom: 0px;
+    }
+
+   
  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-
+    .hero-img {
+        width: 610px;
+    }
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+    .hero-img {
+        width: 790px;
+    }
  }

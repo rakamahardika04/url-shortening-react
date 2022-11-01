@@ -7,10 +7,12 @@ import ShortenButton from '../../atoms/Buttons/Shorten/ShortenButton';
 const InputShortenForm = () => {
   return (
     <form class="shorten-form-container">
-      <div class="form-group">
+      <div class="form-group shorten-form-group">
         <InputLink />
       </div>
-      <ShortenButton />
+      <div class="shorten-btn-container">
+        <ShortenButton />
+      </div>
     </form>
   );
 }
