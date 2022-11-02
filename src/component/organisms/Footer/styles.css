@@ -44,11 +44,17 @@
 
 .footer-item {
     margin-bottom: 8px;
+    list-style: none;
 }
 
 .footer-link {
     color: var(--gray);
     font-weight: var(--bold);
+}
+
+.footer-link:hover {
+    color: var(--cyan);
+    text-decoration: none;
 }
 
 /* Small devices (landscape phones, 376px, 576px and up) */

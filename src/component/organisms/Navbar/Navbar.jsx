@@ -26,17 +26,15 @@ const Navbar = () => {
                     <li class="nav-item">
                         <a class="nav-link" href="#">Resources</a>
                     </li>
-                    <li class="nav-item">
-                        <div class="login-btn-container">
+                </ul>
+
+                <div class="nav-button form-inline my-2 my-lg-0">
+                         <div class="login-btn-container">
                             <LoginButton />
                         </div>
                         <div class='signup-btn-container'>
                             <SignUpButton />
                         </div>
-                    </li>
-                </ul>
-
-                <div class="form-inline my-2 my-lg-0">
                 </div>
             </div>
         </div>

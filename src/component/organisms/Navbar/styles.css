@@ -2,7 +2,26 @@
     padding: 85px 0px;
 }
 
+.navbar-nav {
+    margin-left: 46px;
+}
+
 .nav-link {
     font-weight: bold;
     color: var(--grayish-violet);
+}
+
+.nav-button {
+    display: flex;
+}
+
+
+@media (max-width: 991px) {
+    .nav-button {
+        flex-direction: column;
+    }
+    
+    .navbar-nav {
+        margin-left: 0px;
+    }
 }

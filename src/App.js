@@ -42,10 +42,10 @@ function App() {
       {/* <SocialMediaMenus /> */}
 
       <Navbar />
-      {/* <Hero /> */}
-      {/* <Statistics /> */}
-      {/* <BoostSection /> */}
-      {/* <Footer /> */}
+      <Hero />
+      <Statistics />
+      <BoostSection />
+      <Footer />
     </div>
   );
 }

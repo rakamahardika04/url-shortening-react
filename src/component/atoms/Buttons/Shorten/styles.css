@@ -6,6 +6,10 @@
     padding: 14px 50px;
 }
 
+.btn-shorten:hover {
+    filter: brightness(110%);
+}
+
 /* Small devices (landscape phones, 376px, 576px and up) */
 
 @media (max-width: 576px) {
