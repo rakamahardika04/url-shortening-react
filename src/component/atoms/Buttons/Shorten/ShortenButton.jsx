@@ -3,7 +3,7 @@ import './styles.css';
 
 const ShortenButton = () => {
   return (
-    <button type="button" class="btn btn-shorten">Shorten it</button>
+    <button type="submit" class="btn btn-shorten">Shorten it</button>
   );
 }
 

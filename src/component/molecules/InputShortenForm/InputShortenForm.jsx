@@ -1,4 +1,4 @@
-import react from 'react';
+import react, { useState, useEffect } from 'react';
 import './styles.css';
 
 import InputLink from '../../atoms/Input/InputLink/InputLink';
@@ -6,7 +6,7 @@ import ShortenButton from '../../atoms/Buttons/Shorten/ShortenButton';
 
 const InputShortenForm = () => {
   return (
-    <form class="shorten-form-container container">
+    <form onSubmit class="shorten-form-container container">
       <div class="form-group shorten-form-group">
         <InputLink />
       </div>
