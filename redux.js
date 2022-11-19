@@ -6,6 +6,12 @@ const initialState = {
     datas: [],
 }
 
+function clearArray(array) {
+    while (array.length > 0) {
+      array.pop();
+    }
+  }
+
 // Reducers 
 const rootReducer = (state = initialState, action) => {
     console.log(action.type)
@@ -17,9 +23,11 @@ const rootReducer = (state = initialState, action) => {
             }
             break;
         case "GET_DATA_FROM_DB":
-            action.newData.map(data => {
-                state.datas.push(data)
-            })
+                clearArray(state.datas)
+                action.newData.map(data => {
+                    state.datas.push(data)
+                })
+            
             return {
                 ...state
             }
