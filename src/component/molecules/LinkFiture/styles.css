@@ -1,14 +1,22 @@
 /* Small devices (landscape phones, 376px, 576px and up) */
 
+.link-fiture-container {
+    width: 100%;
+}
+
 .link-fiture-section {
     background-color: white;
     border-radius: 5px;
     padding: 16px;
-    width: 100%;
 }
 
 .link-fiture-column-left{
     border-bottom: 1px solid var(--gray);
+    width: 100%;
+}
+
+.link-fiture-column-rigth {
+    width: 100%;
 }
 
 .link-fiture-button {
@@ -24,6 +32,10 @@
     font-size: 17px;
     padding-bottom: 16px;
     margin: 0px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .link-fiture-shorten-link {
