@@ -1,10 +1,27 @@
 import react from 'react';
+import { Component } from 'react';
+import { connect } from 'react-redux';
 import './styles.css';
 
-const InputLink = () => {
-  return (
-    <input type="text" class="form-control input-link" id="inputLink" placeholder="Shorten a link here..." />
-  );
+class InputLink extends Component {
+
+  render(){
+    return (
+      <input onInput={this.props.handleUrlChanged} type="text" class="form-control input-link" id="inputLink" placeholder="Shorten a link here..." />
+    );
+  }
 }
 
-export default InputLink;
+const mapStateToProps = (state) => {
+  return {
+    url: state.url
+  }
+}
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    handleUrlChanged: (event) => dispatch({type: "SET_URL", url: event.target.value})
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(InputLink);

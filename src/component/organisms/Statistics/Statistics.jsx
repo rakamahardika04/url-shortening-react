@@ -11,7 +11,7 @@ import './styles.css';
 
 class Statistics extends Component {
   render(){
-    console.log(this.props)
+    // console.log(this.props)
     return (
       <div class="statistics-section">
         <div class="input-shorten-form-container">
@@ -21,13 +21,13 @@ class Statistics extends Component {
   
           {/* COLUMN LEFT */}
           <div class="statistics-column-left">
-            <div className='link-fiture-container'>
-              {this.props.datas.map((item, index) => {
+          {this.props.datas.map((item, index) => {
                 
               })}
+            <div className='link-fiture-container'>
               <LinkFiture />
             </div>
-            
+
             <div class="statistics-text-container">
               <div class="statistics-headline-container">
                 <StatisticsHeadline />

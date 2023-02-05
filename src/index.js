@@ -21,12 +21,11 @@ function clearArray(array) {
 
 // Reducers 
 const rootReducer = (state = initialState, action) => {
-    console.log(action.type)
     switch(action.type){
         case "SET_URL": 
             return {
                 ...state,
-                url: state.url = 'url baru'
+                url: state.url = action.url
             }
             break;
         case "GET_DATA_FROM_DB":
@@ -51,9 +50,9 @@ const rootReducer = (state = initialState, action) => {
 const store = createStore(rootReducer);
 
 // Subscription
-store.subscribe(() => {
-    console.log('STORE CHANGED: \n', store.getState())
-})
+// store.subscribe(() => {
+//     console.log('STORE CHANGED: \n', store.getState())
+// })
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
