@@ -28,6 +28,12 @@ const rootReducer = (state = initialState, action) => {
                 url: state.url = action.url
             }
             break;
+        case "ADD_DATA":
+            state.datas.push(action.newData)
+            return {
+                ...state
+            }
+            break;
         case "GET_DATA_FROM_DB":
                 clearArray(state.datas)
                 action.newData.map(data => {

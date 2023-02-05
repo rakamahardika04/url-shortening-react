@@ -9,16 +9,21 @@ import { Component } from 'react';
 
 class InputShortenForm extends Component {
 
-  postDataFromUrl(url){
-    axios.get(`https://api.shrtco.de/v2/shorten?url=${this.props.url}`)
-    .then((result) => {
-      console.log(result)
-    })
-  }
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       data: {}
+//     };
+//  }
+
   
-  handleSubmit(event){
-    let arg1 = event.target.getAttribute('data-arg1');
-    console.log(arg1);
+  handleSubmit = (event) => {
+    let url = event.target.getAttribute('data-arg1');
+
+    axios.get(`https://api.shrtco.de/v2/shorten?url=${url}`)
+    .then((result) => {
+      console.log(this.props)
+    })
   }
 
   render() {
@@ -44,7 +49,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    handleUrlChanged: (event) => dispatch({type: "SET_URL", url: event.target.value})
+    addDataToState: (event) => dispatch({type: "SET_URL", url: event.target.value})
   }
 }
 
