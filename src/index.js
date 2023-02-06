@@ -10,7 +10,7 @@ import {Provider} from 'react-redux';
 
 const initialState = {
     url: '',
-    datas: [],
+    datas: []
 }
 
 function clearArray(array) {
@@ -26,6 +26,12 @@ const rootReducer = (state = initialState, action) => {
             return {
                 ...state,
                 url: state.url = action.url
+            }
+            break;
+        case "EMPTY_URL":
+            return{
+                ...state,
+                url: state.url = action.emptyUrl
             }
             break;
         case "ADD_DATA":

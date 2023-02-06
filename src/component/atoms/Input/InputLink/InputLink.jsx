@@ -7,7 +7,7 @@ class InputLink extends Component {
 
   render(){
     return (
-      <input onInput={this.props.handleUrlChanged} type="text" class="form-control input-link" id="inputLink" placeholder="Shorten a link here..." />
+      <input onInput={this.props.handleUrlChanged} value={this.props.url} type="text" class="form-control input-link" id="inputLink" placeholder="Shorten a link here..." />
     );
   }
 }

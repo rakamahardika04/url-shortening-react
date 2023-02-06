@@ -10,8 +10,8 @@ import LinkFiture from '../../molecules/LinkFiture/LinkFiture';
 import './styles.css';
 
 class Statistics extends Component {
+
   render(){
-    // console.log(this.props)
     return (
       <div class="statistics-section">
         <div class="input-shorten-form-container">
@@ -22,12 +22,16 @@ class Statistics extends Component {
           {/* COLUMN LEFT */}
           <div class="statistics-column-left">
           {this.props.datas.map((item, index) => {
-                
-              })}
-            <div className='link-fiture-container'>
-              <LinkFiture />
-            </div>
-
+            console.log(item.result)
+              return (
+               <div className='link-fiture-container'>
+                <LinkFiture 
+                original_link={item.result.original_link} 
+                share_link={item.result.share_link}/>
+              </div>
+              )
+          })}
+            
             <div class="statistics-text-container">
               <div class="statistics-headline-container">
                 <StatisticsHeadline />
