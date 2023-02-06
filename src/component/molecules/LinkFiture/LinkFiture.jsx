@@ -44,7 +44,7 @@ class LinkFiture extends Component {
       
                 <CopyToClipboard text={this.props.share_link}
                   onCopy={() => this.handleCopyToClipboard()}>
-                    <button className={`btn link-fiture-button-${this.props.button_color}`}>Copy</button>
+                    <button className={`btn link-fiture-button-${this.props.button_color}`}>{this.props.text}</button>
                 </CopyToClipboard>
       
             </div>

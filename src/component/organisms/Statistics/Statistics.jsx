@@ -27,15 +27,14 @@ class Statistics extends Component {
           {/* COLUMN LEFT */}
           <div class="statistics-column-left">
           {this.props.datas.map((item, index) => {
-            console.log(item.result)
               return (
                <div className='link-fiture-container'>
                 {(() => {
                   if(this.props.linkCode == item.result.code){
-                    console.log('black')
                     return (
                       <LinkFiture
                         button_color={'black'}
+                        text={'Copied!'}
                         handleCopyFromLinkFiture={this.handleCopyFromLinkFiture}
                         link_code={item.result.code} 
                         original_link={item.result.original_link} 
@@ -46,6 +45,7 @@ class Statistics extends Component {
                     return (
                       <LinkFiture
                         button_color={'cyan'}
+                        text={'Copy'}
                         handleCopyFromLinkFiture={this.handleCopyFromLinkFiture}
                         link_code={item.result.code} 
                         original_link={item.result.original_link} 
