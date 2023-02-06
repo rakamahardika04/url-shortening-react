@@ -10,7 +10,8 @@ import {Provider} from 'react-redux';
 
 const initialState = {
     url: '',
-    datas: []
+    datas: [],
+    linkCode: ''
 }
 
 function clearArray(array) {
@@ -38,6 +39,12 @@ const rootReducer = (state = initialState, action) => {
             state.datas.push(action.newData)
             return {
                 ...state
+            }
+            break;
+        case "SET_LINK_CODE": 
+            return {
+                ...state,
+                linkCode: state.linkCode = action.linkCode
             }
             break;
         case "GET_DATA_FROM_DB":
