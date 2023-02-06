@@ -1,5 +1,6 @@
 import react, { useState, useEffect } from 'react';
 import './styles.css';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 import InputLink from '../../atoms/Input/InputLink/InputLink';
 import ShortenButton from '../../atoms/Buttons/Shorten/ShortenButton';
@@ -12,7 +13,12 @@ const LinkFiture = (props) => {
       </div>
       <div className='link-fiture-column-right'>
           <h6 className='link-fiture-shorten-link'>{props.share_link}</h6>
-          <button className='btn link-fiture-button'>Copy</button>
+
+          <CopyToClipboard text={props.share_link}
+            onCopy={() => console.log("COPIED")}>
+            <button className='btn link-fiture-button'>Copy</button>
+          </CopyToClipboard>
+
       </div>
     </div>
   );
