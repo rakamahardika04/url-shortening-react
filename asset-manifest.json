@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/url-shortening-react/static/css/main.01fdca5a.css",
-    "main.js": "/url-shortening-react/static/js/main.49607145.js",
+    "main.css": "/url-shortening-react/static/css/main.3242a97e.css",
+    "main.js": "/url-shortening-react/static/js/main.a0b71cf0.js",
     "static/js/787.c1112931.chunk.js": "/url-shortening-react/static/js/787.c1112931.chunk.js",
     "static/media/illustration-working.svg": "/url-shortening-react/static/media/illustration-working.c9b5ef5452363d8be3df709375d50bd0.svg",
+    "static/media/icon-fully-customizable.svg": "/url-shortening-react/static/media/icon-fully-customizable.a1532a74fa781f6fde327313bd5ffce3.svg",
     "static/media/icon-brand-recognition.svg": "/url-shortening-react/static/media/icon-brand-recognition.c349d3b69f7442e5ac3552e4138e72e7.svg",
     "index.html": "/url-shortening-react/index.html",
     "static/media/bg-boost-desktop.svg": "/url-shortening-react/static/media/bg-boost-desktop.772154c9b0e451733f5e.svg",
+    "static/media/icon-detailed-records.svg": "/url-shortening-react/static/media/icon-detailed-records.265c8aea77b546e08ba3575f6a8a9f70.svg",
     "static/media/bg-boost-mobile.svg": "/url-shortening-react/static/media/bg-boost-mobile.4b04bd89ea775da3deff.svg",
     "static/media/bg-shorten-desktop.svg": "/url-shortening-react/static/media/bg-shorten-desktop.0d9742f433f4b0d8752b.svg",
     "static/media/icon-facebook.svg": "/url-shortening-react/static/media/icon-facebook.229c75a01827343aef31ae916e2ec18a.svg",
     "static/media/bg-shorten-mobile.svg": "/url-shortening-react/static/media/bg-shorten-mobile.41c34b33a14a3077e506.svg",
-    "main.01fdca5a.css.map": "/url-shortening-react/static/css/main.01fdca5a.css.map",
-    "main.49607145.js.map": "/url-shortening-react/static/js/main.49607145.js.map",
+    "main.3242a97e.css.map": "/url-shortening-react/static/css/main.3242a97e.css.map",
+    "main.a0b71cf0.js.map": "/url-shortening-react/static/js/main.a0b71cf0.js.map",
     "787.c1112931.chunk.js.map": "/url-shortening-react/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01fdca5a.css",
-    "static/js/main.49607145.js"
+    "static/css/main.3242a97e.css",
+    "static/js/main.a0b71cf0.js"
   ]
 }
