@@ -13,10 +13,10 @@ class Statistics extends Component {
 
   handleCopyFromLinkFiture = (linkCode) => {
     this.props.setLinkCode(linkCode)
-    console.log(this.props.linkCode)
   }
 
   render(){
+    console.log(this.props.datas.result)
     return (
       <div class="statistics-section">
         <div class="input-shorten-form-container">
@@ -38,10 +38,9 @@ class Statistics extends Component {
                         handleCopyFromLinkFiture={this.handleCopyFromLinkFiture}
                         link_code={item.result.code} 
                         original_link={item.result.original_link} 
-                        share_link={item.result.share_link}/>
+                        short_link={`https://${item.result.short_link}`}/>
                     )
                   } else {
-                    console.log(`${this.props.linkCode} dan ${item.result.code}`)
                     return (
                       <LinkFiture
                         button_color={'cyan'}
@@ -49,7 +48,7 @@ class Statistics extends Component {
                         handleCopyFromLinkFiture={this.handleCopyFromLinkFiture}
                         link_code={item.result.code} 
                         original_link={item.result.original_link} 
-                        share_link={item.result.share_link}/>
+                        short_link={`https://${item.result.short_link}`}/>
                     )
                   }
                   })()
